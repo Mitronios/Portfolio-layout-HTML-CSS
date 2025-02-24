@@ -2,7 +2,7 @@
     position: sticky;
     top: 0;
     padding: 1rem;
-    background-color: var(--accesory-color);
+    background-color: var(--main-brand-color);
     opacity: 0.9;
     margin-bottom: 5rem;
     z-index: 10;
@@ -17,5 +17,4 @@
     justify-content: space-evenly;
     align-items: center;
     gap: 10px;
-    font-weight: bold;
 }

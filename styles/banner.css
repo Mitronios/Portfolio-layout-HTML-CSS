@@ -1,11 +1,10 @@
 .banner {
     height: 50vh;
     position: relative;
-    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 1rem;
+    padding: 0.7rem;
     margin-bottom: 2rem;
 
     .image {
@@ -23,5 +22,6 @@
     .content {
         position: relative;
         z-index: 1;
+
     }
 }

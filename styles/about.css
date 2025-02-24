@@ -1,0 +1,27 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    .assets {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+
+        img {
+            width: 15em;
+            z-index: 1;
+            border-radius: 50%;
+        }
+    }
+}
+
+@media screen and (width > 768px) {
+    .about {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        margin: 0 auto;
+    }
+}

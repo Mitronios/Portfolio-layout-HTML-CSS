@@ -1,10 +1,24 @@
 .btn {
-    color: var(--main-text-color);
-    background-color: var(--accesory-color);
+    color: var(--main-bc-light);
+    background-color: var(--main-text-color);
     text-decoration: none;
     padding: 0.7rem;
     display: inline-block;
     border-radius: 5px;
-    border: 1px solid var(--main-brand-color);
+    border: 1px solid var(--main-bc-light);
     opacity: 0.7;
+}
+
+@media screen and (hover: hover) {
+    .btn {
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: var(--accesory-color);
+    }
+
+    .btn .secondary {
+        background-color: transparent;
+    }
 }

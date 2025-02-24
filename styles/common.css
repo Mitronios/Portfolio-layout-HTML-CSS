@@ -1,9 +1,9 @@
 :root {
     --bg-color: #ffffff;
-    --main-text-color: #0B132B;
-    --main-brand-color: #1C2541;
-    --main-bc-light: #3A506B;
-    --accesory-color: #5BC0BE;
+    --main-text-color: #000000;
+    --main-brand-color: #2C2C2C;
+    --main-bc-light: #F5f5f5;
+    --accesory-color: #FFAB00;
     font-size: 16px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -42,4 +42,5 @@ p {
 
 a {
     text-decoration: none;
+    color: var(--main-bc-light);
 }

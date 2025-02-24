@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="./styles/main.css" />
     <link rel="stylesheet" href="./styles/components.css" />
     <link rel="stylesheet" href="./styles/banner.css" />
+    <link rel="stylesheet" href="./styles/skills.css" />
+    <link rel="stylesheet" href="./styles/about.css" />
   </head>
   <body class="main-bg">
     <h1 class="sr-only">Mitronios Portfolio</h1>
@@ -17,13 +19,13 @@
       <nav class="nav">
         <ul class="list">
           <li>
-            <a href="">Experience</a>
+            <a href="#experience">Experience</a>
           </li>
           <li>
             <a href="">Projects</a>
           </li>
           <li>
-            <a href="">About Me</a>
+            <a href="#about-me">About Me</a>
           </li>
           <li>
             <a href="">Contact</a>
@@ -56,29 +58,32 @@
         <div class="banner">
           <div class="image"></div>
           <div class="content">
-            <h2>Experience</h2>
+            <h2 id="experience">Experience</h2>
             <p><em> Front-End Developer</em></p>
             <p><strong>No Country</strong></p>
             <p><em>Sept. 2024 - oct. 2024</em></p>
             <ul>
               <li>
-                Designed the 'home' view layout for the VitalGreen MVP,
-                following the design proposed by the UX/UI team.
-              </li>
-              <li>Coordinated and organised cohort team meetings.</li>
-              <li>
-                Contributed to the development of the Break&Focus MVP and
-                developed the Techniques component.
+                <strong>Designed the 'home' view layout</strong> for the
+                VitalGreen MVP, following the design proposed by the UX/UI team.
               </li>
               <li>
-                Participated in the opening and closing of issues on the Github
+                <strong>Coordinated and organized</strong> cohort team meetings.
+              </li>
+              <li>
+                <strong>Contributed to the development</strong> of the
+                Break&Focus MVP and developed the Techniques component.
+              </li>
+              <li>
+                Participated in the
+                <strong>opening and closing of issues</strong> on the Github
                 repository.
               </li>
             </ul>
           </div>
         </div>
       </section>
-      <section>
+      <section class="skills">
         <h2>Skills</h2>
         <div>
           <span>JavaScript</span>
@@ -97,22 +102,32 @@
         </div>
         <div>Progress line</div>
       </section>
-      <section>
-        <h3>About me</h3>
-        <p>
-          In August 2024, driven by curiosity and a desire to grow personally
-          and professionally, I obtained my Full-Stack Web Development
-          certification from 4Geeks Academy.
-        </p>
-        <p>
-          I am currently continuing my education at keepCoding in the Fullstack
-          Web Development Bootcamp.
-        </p>
-        <p>
-          I'm working with the vision of building solid foundation, focusing on
-          quality and security.
-        </p>
-      </section>
+      <article>
+        <h3 id="about-me">About me</h3>
+        <div class="about">
+          <div class="assets">
+            <img
+              src="https://avatars.githubusercontent.com/u/160284274?v=4"
+              alt="Mitronios"
+            />
+          </div>
+          <div>
+            <p>
+              In August 2024, driven by curiosity and a desire to grow
+              personally and professionally, I obtained my Full-Stack Web
+              Development certification from 4Geeks Academy.
+            </p>
+            <p>
+              I am currently continuing my education at keepCoding in the
+              Fullstack Web Development Bootcamp.
+            </p>
+            <p>
+              I'm working with the vision of building solid foundation, focusing
+              on quality and security.
+            </p>
+          </div>
+        </div>
+      </article>
     </main>
     <footer>
       <ul>
