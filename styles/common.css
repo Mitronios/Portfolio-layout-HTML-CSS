@@ -1,3 +1,31 @@
+:root {
+    --bg-color: #ffffff;
+    --main-text-color: #0B132B;
+    --main-brand-color: #1C2541;
+    --main-bc-light: #3A506B;
+    --accesory-color: #5BC0BE;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-bg {
+    background-color: var(--bg-color);
+    color: var(--main-text-color)
+}
+
 * {
     box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin-top: 0;
+}
+
+p {
+    margin: 0;
+    margin-bottom: 1rem;
 }

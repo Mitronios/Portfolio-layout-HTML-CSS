@@ -6,9 +6,8 @@
 }
 
 img {
-    width: 5%;
-    max-width: 80px;
-    min-width: 80px;
+    width: 20%;
+    max-width: 300px;
     border-radius: 50%;
 }
 
