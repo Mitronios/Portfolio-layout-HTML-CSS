@@ -1,0 +1,27 @@
+.banner {
+    height: 50vh;
+    position: relative;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    margin-bottom: 2rem;
+
+    .image {
+        background-color: var(--bg-color);
+        background-image: url("https://helios-i.mashable.com/imagery/articles/0719S1gNwX7QMQgCS4hvmKE/hero-image.fill.size_1248x702.v1688723414.jpg");
+        background-size: contain;
+        position: absolute;
+        bottom: 0;
+        top: 0;
+        left: 0;
+        right: 0;
+        opacity: 0.2;
+    }
+
+    .content {
+        position: relative;
+        z-index: 1;
+    }
+}

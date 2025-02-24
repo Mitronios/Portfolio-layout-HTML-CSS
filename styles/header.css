@@ -5,6 +5,7 @@
     background-color: var(--accesory-color);
     opacity: 0.9;
     margin-bottom: 5rem;
+    z-index: 10;
 
 }
 

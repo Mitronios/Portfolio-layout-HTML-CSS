@@ -3,3 +3,21 @@
     margin: 0 auto;
     max-width: 768px;
 }
+
+.presentation {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    img {
+        width: 20%;
+        max-width: 100px;
+        border-radius: 50%;
+        margin-bottom: 1rem;
+    }
+
+}
+
+section .salutation {
+    font-size: 1.5rem;
+}
