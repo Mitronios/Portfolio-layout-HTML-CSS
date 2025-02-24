@@ -8,9 +8,21 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.sr-only:not(:focus):not(:active) {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
 .main-bg {
     background-color: var(--bg-color);
-    color: var(--main-text-color)
+    color: var(--main-text-color) width: 90%;
+    margin: 0 auto;
+    max-width: 768px;
 }
 
 * {
@@ -28,4 +40,9 @@ p {
 p {
     margin: 0;
     margin-bottom: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: var(--main-bc-light);
 }
