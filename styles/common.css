@@ -1,9 +1,9 @@
 :root {
-    --bg-color: #ffffff;
-    --main-text-color: #000000;
-    --main-brand-color: #2C2C2C;
-    --main-bc-light: #F5f5f5;
-    --accesory-color: #FFAB00;
+    --bg-color: #000000;
+    --main-text-color: #f5f5f5;
+    --main-brand-color: #35682D;
+    --main-bc-light: #537a4d;
+    --accesory-color: #FFBA00;
     font-size: 16px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -35,12 +35,22 @@ p {
     margin-top: 0;
 }
 
+h2,
+h3 {
+    color: var(--main-text-color);
+    background-color: var(--main-brand-color);
+    display: inline-block;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
 p {
     margin: 0;
-    margin-bottom: 1rem;
+    margin-bottom: 1.3rem;
 }
 
 a {
     text-decoration: none;
-    color: var(--main-bc-light);
+    color: var(--main-text-color);
+    ;
 }

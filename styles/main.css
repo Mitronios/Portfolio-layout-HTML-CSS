@@ -7,7 +7,7 @@
 .presentation {
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 1.5rem;
 
     img {
         width: 20%;
@@ -20,4 +20,8 @@
 
 section .salutation {
     font-size: 1.5rem;
+}
+
+p span.accesory {
+    color: var(--accesory-color);
 }

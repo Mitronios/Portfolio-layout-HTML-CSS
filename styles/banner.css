@@ -9,8 +9,9 @@
 
     .image {
         background-color: var(--bg-color);
-        background-image: url("https://helios-i.mashable.com/imagery/articles/0719S1gNwX7QMQgCS4hvmKE/hero-image.fill.size_1248x702.v1688723414.jpg");
-        background-size: contain;
+        background-image: url("https://i.pinimg.com/736x/c1/e9/52/c1e9528ed39d3fd0a11960fc1d7a6db2.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
         position: absolute;
         bottom: 0;
         top: 0;
@@ -23,5 +24,8 @@
         position: relative;
         z-index: 1;
 
+        p em {
+            color: var(--accesory-color);
+        }
     }
 }
