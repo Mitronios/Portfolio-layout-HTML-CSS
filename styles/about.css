@@ -1,3 +1,7 @@
+article {
+    margin-bottom: 1.5rem;
+}
+
 .about {
     display: flex;
     flex-direction: column;
