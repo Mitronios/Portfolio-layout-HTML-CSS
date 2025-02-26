@@ -9,10 +9,6 @@ This project is a portfolio layout created using only HTML and CSS. It's part of
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Future Improvements](#future-improvements)
-- [Acknowledgements](#acknowledgements)
-- [Contact](#contact)
 
 ## Project Overview
 
