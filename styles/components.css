@@ -19,19 +19,6 @@
 
 }
 
-/* Inputs validation*/
-input:invalid {
-    border: 2px solid var(--accesory-color);
-}
-
-input:valid {
-    border: 2px solid var(--main-bc-light);
-}
-
-input:placeholder-shown {
-    border: 1px solid grey;
-}
-
 /* Forms css */
 .form-element {
     display: flex;

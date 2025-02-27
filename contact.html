@@ -12,7 +12,7 @@
   <body class="main-bg container">
     <main class="card">
       <h1>Contact me</h1>
-      <form action="./register.html" method="post">
+      <form action="./" method="post">
         <div class="form-element">
           <label for="name">Name</label>
           <input
@@ -41,8 +41,9 @@
             name="phone"
             id="tel"
             autocomplete="off"
-            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
-            placeholder="123-123-1234"
+            pattern="[0-9]-{3}[0-9]{8}"
+            placeholder="591-12345678"
+            title="Expected 591-12345678"
           />
         </div>
         <div class="form-element">
@@ -67,11 +68,11 @@
               value="linkedin"
               required
             />
-            <label for="github">Github</label>
+            <label for="github">| Github</label>
             <input type="radio" name="found" id="github" value="github" />
-            <label for="4geeks">4Geeks</label>
+            <label for="4geeks">| 4Geeks</label>
             <input type="radio" name="found" id="4geeks" value="4geeks" />
-            <label for="keepcoding">Keepcoding</label>
+            <label for="keepcoding">| Keepcoding</label>
             <input
               type="radio"
               name="found"
@@ -88,7 +89,7 @@
               id="questions"
               rows="6"
               cols="40"
-              placeholder="How can I help you?"
+              placeholder="How can I help you? (Max 180)"
               maxlength="180"
             ></textarea>
           </div>
