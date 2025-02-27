@@ -4,6 +4,103 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact</title>
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/common.css" />
+    <link rel="stylesheet" href="styles/components.css" />
+    <link rel="stylesheet" href="./styles/contact.css" />
   </head>
-  <body></body>
+  <body class="main-bg container">
+    <main class="card">
+      <h1>Contact me</h1>
+      <form action="./register" method="post">
+        <div class="form-element">
+          <label for="name">Name</label>
+          <input
+            required
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Add your name"
+          />
+        </div>
+        <div class="form-element">
+          <label for="lastName">Last name</label>
+          <input
+            required
+            type="text"
+            name="lastName"
+            id="lastName"
+            placeholder="Add your lastName"
+          />
+        </div>
+        <div class="form-element">
+          <label for="tel">Enter your phone number</label>
+          <input
+            required
+            type="tel"
+            name="phone"
+            id="tel"
+            autocomplete="off"
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+            placeholder="123-123-1234"
+          />
+        </div>
+        <div class="form-element">
+          <label for="username">Github user</label>
+          <input
+            required
+            type="text"
+            name="github"
+            id="username"
+            placeholder="@usuario"
+            pattern="@[a-zA-Z0-9_]+"
+          />
+        </div>
+        <div class="form-element">
+          <fieldset>
+            <legend>How did you know me</legend>
+            <label for="linkedin">LinkedIn</label>
+            <input
+              type="radio"
+              name="found"
+              id="linkedin"
+              value="linkedin"
+              required
+            />
+            <label for="github">Github</label>
+            <input type="radio" name="found" id="github" value="github" />
+            <label for="4geeks">4Geeks</label>
+            <input type="radio" name="found" id="4geeks" value="4geeks" />
+            <label for="keepcoding">Keepcoding</label>
+            <input
+              type="radio"
+              name="found"
+              id="keepcoding"
+              value="keepcoding"
+            />
+          </fieldset>
+        </div>
+        <div>
+          <div class="form-element">
+            <label for="questions">More information</label>
+            <textarea
+              name="questions"
+              id="questions"
+              rows="6"
+              cols="40"
+              placeholder="How can I help you?"
+              maxlength="180"
+            ></textarea>
+          </div>
+          <div class="form-element row">
+            <label for="newsletter">Access Newsletter</label>
+            <input type="checkbox" name="newsletter" id="newsletter" />
+          </div>
+          <button class="btn" type="submit">Send</button>
+          <input class="btn secondary" type="reset" value="Reset" />
+        </div>
+      </form>
+      <a class="to-home" href="./">Go back</a>
+    </main>
+  </body>
 </html>
