@@ -13,9 +13,21 @@
     border-radius: 4px;
 }
 
+.contact {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 2rem;
+
+    h1 {
+        margin: 0;
+    }
+}
+
 .to-home {
     display: flex;
     justify-content: end;
-    color: var(--accesory-color);
+    align-items: center;
     font-weight: 700;
+    color: var(--accesory-color);
 }

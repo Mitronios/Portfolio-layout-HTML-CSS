@@ -6,7 +6,6 @@
     opacity: 0.9;
     margin-bottom: 3rem;
     z-index: 10;
-
 }
 
 .nav .list {
@@ -17,4 +16,6 @@
     justify-content: space-evenly;
     align-items: center;
     gap: 10px;
+
+
 }

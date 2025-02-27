@@ -55,3 +55,7 @@ a {
     color: var(--main-text-color);
     ;
 }
+
+section {
+    margin-bottom: 5rem;
+}
