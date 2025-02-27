@@ -17,5 +17,8 @@
     align-items: center;
     gap: 10px;
 
-
+    a:hover {
+        text-decoration: none;
+        background: var(--main-bc-light);
+    }
 }
