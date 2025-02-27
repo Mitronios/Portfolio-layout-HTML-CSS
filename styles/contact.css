@@ -1,0 +1,21 @@
+.container {
+    background-image: url("../assets/app/logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.card {
+    max-width: 768px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 3rem 2rem;
+    border-radius: 4px;
+}
+
+.to-home {
+    display: flex;
+    justify-content: end;
+    color: var(--accesory-color);
+    font-weight: 700;
+}

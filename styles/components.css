@@ -18,3 +18,48 @@
     }
 
 }
+
+/* Inputs validation*/
+input:invalid {
+    border: 2px solid var(--accesory-color);
+}
+
+input:valid {
+    border: 2px solid var(--main-bc-light);
+}
+
+input:placeholder-shown {
+    border: 1px solid grey;
+}
+
+/* Forms css */
+.form-element {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+
+    label,
+    legend {
+        margin-bottom: 0.5rem;
+    }
+
+
+    input,
+    textarea,
+    select {
+        border: none;
+        padding: 1rem;
+        border-radius: 5px;
+        background-color: var(--input-color);
+        color: var(--main-text-color);
+    }
+
+    &.row {
+        flex-direction: row;
+        gap: 10px;
+
+        label {
+            margin: 0;
+        }
+    }
+}
