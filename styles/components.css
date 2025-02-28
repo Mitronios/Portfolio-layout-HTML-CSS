@@ -32,8 +32,7 @@
 
 
     input,
-    textarea,
-    select {
+    textarea {
         border: none;
         padding: 1rem;
         border-radius: 5px;
