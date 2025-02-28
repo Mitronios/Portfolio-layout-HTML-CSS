@@ -1,11 +1,7 @@
-main {
-    h2 {
-        background-color: var(--main-bc-light);
-        color: var(--main-text-color);
-        display: block;
-        margin-bottom: 3rem;
-        padding: 1rem;
-    }
+.bg {
+    background-image: url(https://cdnb.artstation.com/p/assets/images/images/006/653/981/large/david-jackson-lego-black-brick-1920-720-beauty-pass.jpg?1500237921);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .box {
@@ -13,6 +9,15 @@ main {
     max-width: 768px;
     margin: 0 auto;
     margin-bottom: 3rem;
+
+    h2 {
+        background-color: var(--main-bc-light);
+        color: var(--main-text-color);
+        display: block;
+        margin-bottom: 3rem;
+        padding: 1rem;
+
+    }
 
     h3 {
         background-color: var(--main-bc-light);

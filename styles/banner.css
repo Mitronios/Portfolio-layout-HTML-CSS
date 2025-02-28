@@ -29,3 +29,11 @@
         }
     }
 }
+
+@media screen and (width > 768px) {
+    .banner {
+        .image {
+            background-image: url("https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2019/03/whats-coding.jpg");
+        }
+    }
+}
