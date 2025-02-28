@@ -4,6 +4,7 @@ main {
         color: var(--main-text-color);
         display: block;
         margin-bottom: 3rem;
+        padding: 1rem;
     }
 }
 
