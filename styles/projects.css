@@ -1,0 +1,58 @@
+main {
+    h2 {
+        background-color: var(--main-bc-light);
+        color: var(--main-text-color);
+        display: block;
+        margin-bottom: 3rem;
+    }
+}
+
+.box {
+    width: 90%;
+    max-width: 768px;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+
+    h3 {
+        background-color: var(--main-bc-light);
+        color: var(--main-text-color);
+        display: block;
+        margin: 0;
+    }
+
+    p {
+        background-color: var(--main-text-color);
+        color: var(--main-bc-light);
+        min-height: 2rem;
+        padding: 0.5rem;
+        display: none;
+
+    }
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.2rem;
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+
+    img {
+        width: 100%;
+    }
+}
+
+figure {
+    margin: 0;
+}
+
+@media screen and (width >768px) {
+    .box {
+        p {
+            display: block;
+        }
+    }
+}
