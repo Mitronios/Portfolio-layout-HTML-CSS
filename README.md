@@ -2,6 +2,9 @@
 
 This project is a portfolio layout created using only HTML and CSS. It's part of the assignments for the HTML/CSS module of the Web Development Bootcamp at Keepcoding. This portfolio is designed to showcase my skills and projects, and will be hosted on GitHub Pages.
 
+Note:
+Animation bars and other details were included following the listed requirements of the project for evaluation purposes.
+
 ## Table of Contents
 
 - [Project Overview](#project-overview)
