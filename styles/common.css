@@ -46,6 +46,7 @@ h3 {
 }
 
 p {
+    word-spacing: 2px;
     margin: 0;
     margin-bottom: 1.3rem;
 }
@@ -57,5 +58,5 @@ a {
 }
 
 section {
-    margin-bottom: 3rem;
+    margin-bottom: 2.5rem;
 }
