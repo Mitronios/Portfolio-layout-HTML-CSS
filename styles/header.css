@@ -17,8 +17,13 @@
     align-items: center;
     gap: 10px;
 
+    a {
+        background-color: var(--main-brand-color);
+        transition: background-color 0.3s;
+    }
+
     a:hover {
         text-decoration: none;
-        background: var(--main-bc-light);
+        background-color: var(--main-bc-light);
     }
 }

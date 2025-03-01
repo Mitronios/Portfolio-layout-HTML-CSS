@@ -24,15 +24,14 @@
     }
 }
 
+.action {
+    display: flex;
+    justify-content: space-between;
+}
+
 .to-home {
     display: flex;
     align-items: center;
     font-weight: 700;
     color: var(--main-text-color);
-
-}
-
-.action {
-    display: flex;
-    justify-content: space-between;
 }

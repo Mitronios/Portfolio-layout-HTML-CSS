@@ -1,11 +1,47 @@
-.skills {
-    margin-bottom: 5rem;
+.skills p {
+    color: var(--accesory-color);
+    margin-bottom: 0.2rem;
+}
 
-    div {
-        color: var(--main-brand-color)
+.progress {
+    height: 1rem;
+    width: 1rem;
+    background-color: var(--main-brand-color);
+    margin-bottom: 0.8rem;
+    border: solid 1px var(--main-text-color);
+    display: none;
+}
+
+@media screen and (prefers-reduced-motion: no-preference) {
+    .progress {
+        display: block;
+        animation: progress 2s linear forwards;
+        animation-delay: 2.5s;
+    }
+}
+
+@keyframes progress {
+    0% {
+        width: 0;
     }
 
-    div span {
-        color: var(--accesory-color);
+    100% {
+        width: var(--progress-width);
     }
+}
+
+.js {
+    --progress-width: 35%;
+}
+
+.py {
+    --progress-width: 30%;
+}
+
+.html {
+    --progress-width: 50%;
+}
+
+.css {
+    --progress-width: 45%;
 }
