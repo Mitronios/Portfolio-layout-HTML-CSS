@@ -28,7 +28,7 @@
     display: flex;
     align-items: center;
     font-weight: 700;
-    color: var(--accesory-color);
+    color: var(--main-text-color);
 
 }
 

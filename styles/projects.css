@@ -24,6 +24,7 @@
         color: var(--main-text-color);
         display: block;
         margin: 0;
+        font-size: medium;
     }
 
     p {
@@ -55,10 +56,45 @@ figure {
     margin: 0;
 }
 
+.video-container {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    aspect-ratio: 16/9;
+
+    iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.to-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    color: var(--main-text-color);
+
+}
+
 @media screen and (width >768px) {
     .box {
+
         p {
             display: block;
         }
+    }
+}
+
+@media screen and (width > 1024px) {
+    .box {
+        max-width: 1024px;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(4, 1fr);
     }
 }
